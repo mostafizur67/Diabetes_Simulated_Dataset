@@ -20,6 +20,10 @@ This dataset serves as a preliminary exploration into data analysis and visualiz
 + Random Generation: This dataset has been randomly generated for educational purposes and does not reflect real patient data.
 
 
+## Run Command
+Run the main file using `python3 main.py` command
+
+
 
 
 &copy; This dataset, created for the Data Analytics and Visualization session of the Certificate in Advanced Computing program by ACENET, is publicly available.
