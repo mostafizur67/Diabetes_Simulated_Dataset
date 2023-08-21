@@ -13,12 +13,12 @@ def generate_synthetic_data() -> List[List[Any]]:
     data = []
     for i in range(1, NUM_SAMPLES + 1):
         age = random.randint(20, 80)
-        gender = random.choice(['Male', 'Female'])
+        gender = random.choice(['Male', 'male', 'Female'])
         bmi = round(random.uniform(18.0, 40.0), 1)
         glucose = random.randint(70, 200)
         insulin = round(random.uniform(3.0, 20.0), 1)
         hba1c = round(random.uniform(5.0, 10.0), 1)
-        family_history = random.choice(['Yes', 'No'])
+        family_history = random.choice(['Yes', 'No', 'nooo', 'Yess'])
 
         if family_history == 'Yes':
             diabetes = 'Yes' if random.random() < 0.7 else 'No'
